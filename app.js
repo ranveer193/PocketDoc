@@ -2,9 +2,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { spawn } = require('child_process');
+const path = require("path");
 
 const app = express();
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname, 'public')));
 
 // List of symptoms (these could be dynamically fetched from a database)
 const symptomsList = [
@@ -35,7 +37,7 @@ const symptomsList = [
 
 // Serve the frontend
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(path.join(__dirname,'views','index.html'));
 });
 
 // API to get symptoms
