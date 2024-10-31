@@ -53,7 +53,7 @@ app.post('/predict', (req, res) => {
   const symptomArgs = symptoms.map(String);
 
   // Spawn the Python process to run the prediction
-  const pythonProcess = spawn('python', ['../PocketDoc/model.py', ...symptomArgs]);
+  const pythonProcess = spawn('python', ['../PocketDoc/api/model.py', ...symptomArgs]);
 
   // Collect data from the Python script
   let output = '';
