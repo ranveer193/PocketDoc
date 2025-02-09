@@ -1,5 +1,7 @@
 # PocketDoctor
 
+![PocketDoctor Banner](https://raw.githubusercontent.com/yourusername/PocketDoctor/main/Picture1.png)
+
 ## Overview
 PocketDoctor is an AI-powered healthcare assistant that predicts diseases based on user-entered symptoms and recommends suitable medicines. It utilizes an **unsupervised machine learning model** with clustering techniques to identify diseases even when there is no exact match in the dataset.
 
@@ -34,8 +36,8 @@ Ensure you have the following installed:
 ### Steps
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/ranveer193/PocketDoc.git
-   cd PocketDoc
+   git clone https://github.com/yourusername/PocketDoctor.git
+   cd PocketDoctor
    ```
 2. **Install Backend Dependencies**:
    ```sh
@@ -57,10 +59,13 @@ Ensure you have the following installed:
    - Navigate to `localhost:3000` in your browser.
 
 ## Dataset Information
+![Dataset](https://raw.githubusercontent.com/yourusername/PocketDoctor/main/Picture2.jpg)
 - The dataset contains **132 symptoms** mapped to **42 diseases**.
 - Sourced from **GeeksforGeeks Disease Prediction Dataset** ([link](https://www.geeksforgeeks.org/disease-prediction-using-machine-learning/)).
 
 ## Model Performance
+![Model Accuracy](https://raw.githubusercontent.com/yourusername/PocketDoctor/main/Picture3.jpg)
+
 | Model             | Accuracy | Precision | Recall | F1 Score |
 |------------------|----------|-----------|--------|----------|
 | K-Means         | 0.97     | 0.96      | 0.97   | 0.97     |
