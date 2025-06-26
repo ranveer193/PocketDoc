@@ -1,6 +1,8 @@
 # PocketDoctor
 
-![PocketDoctor Banner](https://raw.githubusercontent.com/ranveer193/PocketDoc/main/Picture2.jpg)
+![PocketDoctor Banner 1](https://raw.githubusercontent.com/ranveer193/PocketDoc/main/Picture2.jpg)
+
+![PocketDoctor Banner 2](https://raw.githubusercontent.com/ranveer193/PocketDoc/main/Picture4.png)
 
 ## Overview
 PocketDoctor is an AI-powered healthcare assistant that predicts diseases based on user-entered symptoms and recommends suitable medicines. It utilizes an **unsupervised machine learning model** with clustering techniques to identify diseases even when there is no exact match in the dataset.
