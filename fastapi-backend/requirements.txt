@@ -2,5 +2,5 @@ fastapi
 uvicorn
 xgboost
 pandas
-scikit-learn
+scikit-learn==1.5.2
 numpy
