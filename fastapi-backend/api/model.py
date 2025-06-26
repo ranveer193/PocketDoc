@@ -6,7 +6,7 @@ from .features import SYMPTOMS
 
 @lru_cache(maxsize=1)
 def _load():
-    base = Path(__file__).resolve().parents[2] / "models"
+    base = Path(__file__).resolve().parents[1] / "models"
     return (
         joblib.load(base / "model.joblib"),
         joblib.load(base / "label_encoder.joblib"),
