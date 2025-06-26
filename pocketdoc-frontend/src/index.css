@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@theme {
+  --brand-900: #064e3b;
+  --brand-700: #047857;
+  --brand-600: #059669;
+  --brand-500: #10b981;
+  --brand-100: #d1fae5;
+  --brand-50 : #ecfdf5;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {width:6px}
+::-webkit-scrollbar-thumb {background:var(--brand-500);border-radius:4px}
